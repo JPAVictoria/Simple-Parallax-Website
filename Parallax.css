@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img-1{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url("ParallaxImages/johannes-plenio-RwHv7LgeC7s-unsplash.jpg");
+    height: 668px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-1-text{
+    background-color: #ffffff;
+    opacity: 0.70;
+    margin-top: 300px;
+    margin-left: 480px;
+    position: absolute;
+    width: 320px;
+    height: 70px;
+}
+
+.img-1-text h2{
+    margin-top: 18px;
+    margin-left: 3px;
+    text-align: center;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;               
+}
+
+/**FIRST IMAGE CODE ONLY */
+
+.content-1{
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 350px;
+}
+
+.content-1 h2{
+    margin-left: 500px;
+    padding-top: 10px;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.content-1 p{
+    text-align: center;
+    margin-left: 380px;
+    color: #212529;
+    line-height: 1.6;
+    letter-spacing: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+/* IMAGE 1 CONTENT CODE ABOVE ONLY */
+
+.img-2{
+    background: url("ParallaxImages/ocean.jpg");
+    height: 450px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
+
+.img-2-text{
+    background-color: #ffffff;
+    margin-top: 200px;
+    margin-left: 480px;
+    position: absolute;
+    width: 320px;
+    height: 70px;
+}
+
+.img-2-text h2{
+    margin-top: 18px;
+    margin-left: 3px;
+    text-align: center;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;               
+}
+
+/* IMAGE-2 CODE ABOVE ONLY */
+
+.content-2{
+    background-color: #212529;
+    height: 350px;
+}
+
+.text-2{
+    display: inline-block;
+}
+
+.text-2 h2{
+    margin-left: 514px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.text-2 p{
+    text-align: center;
+    margin-left: 375px;
+    color: #FFFFFF;
+    line-height: 1.6;
+    letter-spacing: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+/* IMAGE 2 CONTENT CODE ABOVE ONLY */
+
+.img-3{
+    background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url("ParallaxImages/maddison-mcmurrin-GDumtPpJsT4-unsplash.jpg");
+    height: 500px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-3-text{
+    background-color: #ffffff;
+    opacity: 0.70;
+    margin-top: 250px;
+    margin-left: 480px;
+    position: absolute;
+    width: 320px;
+    height: 70px;
+}
+
+.img-3-text h2{
+    margin-top: 18px;
+    margin-left: 3px;
+    text-align: center;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;               
+}
+
+.content-3{
+    height: 350px;
+    color:#FFFFFF;
+}
+
+.text-3{
+    display: inline-block;
+}
+
+.text-3 h2{
+    margin-left: 523px;
+    padding-top: 10px;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
+
+.text-3 p{
+    text-align: center;
+    margin-left: 332px;
+    color: #212529;
+    line-height: 1.6;
+    letter-spacing: 0.8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+/* AIR CONTENT CODE ABOVE ONLY */
+
+.img-last{
+        background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.5)), url("ParallaxImages/europeana-_lrgkfBzjXM-unsplash.jpg");
+        height: 668px;
+        background-position:center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+.img-last-text{
+    background-color: #ffffff;
+    opacity: 0.70;
+    margin-top: 285px;
+    margin-left: 455px;
+    position: absolute;
+    width: 350px;
+    height: 95px;
+}
+
+.img-last-text h2{
+    line-height: 1.2;
+    margin-top: 18px;
+    margin-left: 3px;
+    text-align: center;
+    color: #212529;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
